@@ -9,4 +9,6 @@ class Class(models.Model):
     max_students = fields.Integer('Max Students Allowed')
     is_full = fields.Boolean('Is Full', default=False)
 
+    # we need to write method for calculate the max std
+
 
